@@ -71,7 +71,8 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
             this.debugPathing = false;
             
             // pvp
-            this.pvpFlag = false;
+           // this.pvpFlag = false;
+	    this.pvpFlag = true; // SW
 
             // sprites
             this.spriteNames = ["hand", "sword", "loot", "target", "talk", "sparks", "shadow16", "rat", "skeleton", "skeleton2", "spectre", "boss", "deathknight",
@@ -394,11 +395,12 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
                 this.targetColor = "rgba(255, 255, 255, 0.5)";
             }
             
-            if(this.hoveringPlayer && this.started) {
-                if(this.pvpFlag)
+           if(this.hoveringPlayer && this.started) {
+              //  if(this.pvpFlag)
+		    this.pvpFlag = true; // added SW This only show sword does not attack
                     this.setCursor("sword");
-                else
-                    this.setCursor("hand");
+              //  else
+              //      this.setCursor("hand");
                 this.hoveringTarget = false;
                 this.hoveringMob = false;
                 this.targetCellVisible = false;
@@ -2143,7 +2145,9 @@ function(InfoManager, BubbleManager, Renderer, Map, Animation, Sprite, AnimatedT
             && !this.hoveringPlateauTile) {
                 entity = this.getEntityAt(pos.x, pos.y);
 
-        	    if(entity instanceof Mob || (entity instanceof Player && entity !== this.player && this.player.pvpFlag && this.pvpFlag)) {
+        	//    if(entity instanceof Mob || (entity instanceof Player && entity !== this.player && this.player.pvpFlag && this.pvpFlag)) {
+		    if(entity instanceof Mob || (entity instanceof Player)) { // sw
+
                     this.makePlayerAttack(entity);
                 }
                 else if(entity instanceof Item) {

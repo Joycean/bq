@@ -465,7 +465,8 @@ define(['jquery', 'app', 'entrypoint'], function($, App, EntryPoint) {
             	var key = e.which;
 
                 if(key === 16)
-                    game.pvpFlag = false;
+                   // game.pvpFlag = false;
+	            game.pvpFlag = true; // SW
             });
            $('#chatinput').keydown(function(e) {
                 var key = e.which,

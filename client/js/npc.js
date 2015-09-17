@@ -5,7 +5,9 @@ define(['character'], function(Character) {
             "Hello there",
             "We don't need to see your identification",
             "You are not the player we're looking for",
-            "Move along, move along..."
+            "Move along, move along...",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "king": [
@@ -19,7 +21,9 @@ define(['character'], function(Character) {
             "I do nothing all day",
             "Like a boss",
             "Now leave me alone",
-            "Like a boss"
+            "Like a boss",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "villagegirl": [
@@ -28,7 +32,8 @@ define(['character'], function(Character) {
             "It's all happening in a single web page! Isn't it crazy?",
             "It's all made possible thanks to WebSockets.",
             "I don't know much about it, after all I'm just a program.",
-            'Why don&#x27;t you read this <a target="_blank" href="http://hacks.mozilla.org/2012/03/browserquest/">blog post</a> and learn all about it?'
+            "Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "villager": [
@@ -38,14 +43,18 @@ define(['character'], function(Character) {
             "The rats are dead, now what to do?",
             "To be honest, I have no clue.",
             "Maybe the forest, could interest you...",
-            "or instead, cook a rat stew."
+            "or instead, cook a rat stew.",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "agent": [
             "Do not try to bend the sword",
             "That's impossible",
             "Instead, only try to realize the truth...",
-            "There is no sword."
+            "There is no sword.",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "rick": [
@@ -60,7 +69,9 @@ define(['character'], function(Character) {
             "Never gonna run around and desert you",
             "Never gonna make you cry",
             "Never gonna say goodbye",
-            "Never gonna tell a lie and hurt you"
+            "Never gonna tell a lie and hurt you",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "scientist": [{
@@ -71,7 +82,9 @@ define(['character'], function(Character) {
 				"The orange one will turn you into a firefox and make you invincible...",
 				"But it only lasts for a short while.",
 				"So make good use of it!",
-				"Now if you'll excuse me, I need to get back to my experiments..."
+				"Now if you'll excuse me, I need to get back to my experiments...",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
 			]},
 			{"condition": function(game){return (game.player.invincible);},
 			 "text": [
@@ -95,29 +108,35 @@ define(['character'], function(Character) {
 
         "nyan": [
             "nyan nyan nyan nyan nyan",
-            "nyan nyan nyan nyan nyan nyan nyan",
-            "nyan nyan nyan nyan nyan nyan",
-            "nyan nyan nyan nyan nyan nyan nyan nyan"
-        ],
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'        ],
 
         "beachnpc": [
             "lorem ipsum dolor sit amet",
-            "consectetur adipisicing elit, sed do eiusmod tempor"
+            "consectetur adipisicing elit, sed do eiusmod tempor",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "forestnpc": [
             "lorem ipsum dolor sit amet",
-            "consectetur adipisicing elit, sed do eiusmod tempor"
+            "consectetur adipisicing elit, sed do eiusmod tempor",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "desertnpc": [
             "lorem ipsum dolor sit amet",
-            "consectetur adipisicing elit, sed do eiusmod tempor"
+            "consectetur adipisicing elit, sed do eiusmod tempor",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "lavanpc": [
             "lorem ipsum dolor sit amet",
-            "consectetur adipisicing elit, sed do eiusmod tempor"
+            "consectetur adipisicing elit, sed do eiusmod tempor",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "priest": [
@@ -130,7 +149,9 @@ define(['character'], function(Character) {
             "You can also unlock achievements by exploring and hunting.",
             "Click on the small cup icon to see a list of all the achievements.",
             "Please stay a while and enjoy the many surprises of BrowserQuest",
-            "Farewell, young friend."
+            "Farewell, young friend.",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "sorcerer": [
@@ -144,26 +165,32 @@ define(['character'], function(Character) {
             "There are lots of items in this game.",
             "Some more powerful than others.",
             "In order to find them, exploration is key.",
-            "Good luck."
+            "Good luck.",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "octocat": [
-            "Welcome to BrowserQuest!",
-            "Want to see the source code?",
-            'Check out <a target="_blank" href="http://github.com/browserquest/BrowserQuest">the repository on GitHub</a>'
-        ],
+            "Welcome to DogeWar!",
+            "Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'  
+      ],
 
         "coder": [
             "Hi! Do you know that you can also play BrowserQuest on your tablet or mobile?",
             "That's the beauty of HTML5!",
-            "Give it a try..."
+            "Give it a try...",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "beachnpc": [
             "Don't mind me, I'm just here on vacation.",
             "I have to say...",
             "These giant crabs are somewhat annoying.",
-            "Could you please get rid of them for me?"
+            "Could you please get rid of them for me?",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "desertnpc": [
@@ -171,12 +198,16 @@ define(['character'], function(Character) {
             "An ancient undead lord is said to dwell here.",
             "Nobody knows exactly what he looks like...",
             "...for none has lived to tell the tale.",
-            "It's not too late to turn around and go home, kid."
+            "It's not too late to turn around and go home, kid.",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ],
 
         "othernpc": [
             "lorem ipsum",
-            "lorem ipsum"
+            "lorem ipsum",
+"Do you know that you can make real money from all that mouse clicking?",
+            'Make money with <a target="_blank" href="http://www.neobux.com/?rh=6D6F6E657962696E617279">Neobux</a> from mouse clicking.'
         ]
     };
 
