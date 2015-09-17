@@ -573,6 +573,17 @@ function(Camera, Item, Character, Player, Timer) {
                               (entity.y + entity.nameOffsetY) * this.scale,
                               true,
                               color);
+
+                //draw health bar
+                var health = entity.hitPoints / entity.maxHitPoints;
+                health = health < 0 ? 0 : (health > 1 ? 1 : health);
+                var x = (entity.x + 0) * this.scale;
+                var y = (entity.y + entity.nameOffsetY - 10) * this.scale;
+                this.context.fillStyle="rgba(77,77,77,0.7)";
+                this.context.fillRect(x,y,30,6);
+
+                this.context.fillStyle="rgba(255,0,0,1.0)";
+                this.context.fillRect(x,y,30 * health,6);
             }
             this.context.restore();
         },

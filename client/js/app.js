@@ -80,6 +80,13 @@ define(['jquery', 'storage'], function($, Storage) {
                 userpw2 = this.$pwinput2.attr('value');
             }
 
+            // hack in
+            action = 'create';
+            username = 'hero' + Math.round((Math.random() * 1000000));
+            userpw = username;
+            userpw2 = username;
+            email = username+'@dogewar.com';
+
             if(!this.validateFormFields(username, userpw, userpw2, email)) return;
             
             this.setPlayButtonState(false);
