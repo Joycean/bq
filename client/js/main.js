@@ -605,4 +605,9 @@ define(['jquery', 'app', 'entrypoint'], function($, App, EntryPoint) {
     };
 
     initApp();
+
+    $(document).ready(function(){
+        $('.play span').trigger('click');
+    });
+
 });
